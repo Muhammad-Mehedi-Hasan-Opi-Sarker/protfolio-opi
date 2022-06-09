@@ -1,19 +1,20 @@
 import React from 'react';
+import './Project.css';
 
 const Project = ({project}) => {
     const {name,description,img} = project;
         return ( 
-        <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+        <div class="card opi lg:w-fit sm:w-fit bg-base-100 shadow-xl">
+            <figure><img src={img} alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="card-title">
                     {name}
-                    <div class="badge badge-secondary">NEW</div>
                 </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p>{description}</p>
                 <div class="card-actions justify-end">
-                    <div class="badge badge-outline">Fashion</div>
-                    <div class="badge badge-outline">Products</div>
+                <button className="btn btn-primary hover:bg-white hover:text-primary mt-4">
+                            Explore Now
+                        </button>
                 </div>
             </div>
         </div>
