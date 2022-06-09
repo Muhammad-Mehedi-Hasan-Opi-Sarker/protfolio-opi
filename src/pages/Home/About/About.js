@@ -2,7 +2,7 @@ import React from 'react';
 import opi2 from '../../../asset/picture/opi2.jpg';
 const About = () => {
     return (
-        <div className='mt-20 grid lg:grid-cols-2 sm:grid-cols-1 lg:px-32 px-4'>
+        <div className='mt-20 grid lg:grid-cols-2 sm:grid-cols-1 lg:px-32 px-8' id='about'>
             <div className='lg:mt-8'>
                 <img className='lg:h-3/5' src={opi2} alt="" />
             </div>
