@@ -5,7 +5,7 @@ module.exports = {
       {
         protfolio: {
           primary: "#000000",
-          secondary: "#C0C0C0",
+          secondary: "#d3d3d3",
           accent: "#37cdbe",
           neutral: "#3d4451",
           "base-100": "#ffffff",
