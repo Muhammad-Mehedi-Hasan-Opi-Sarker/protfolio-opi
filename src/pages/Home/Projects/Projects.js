@@ -8,7 +8,7 @@ const Projects = () => {
         <div className='grid lg:grid-cols-3 sm:grid-cols-1 lg:px-32 px-8 gap-5'>
             {/* parts  */}
             <div class="card opi lg:w-fit sm:w-fit bg-base-100 shadow-xl mt-5 sm:mt-8">
-                <figure><img src='https://i.ibb.co/Nr8ZTKM/cart3-removebg-preview.png' alt="Shoes" /></figure>
+                <figure><img className='h-40' src='https://i.ibb.co/Nr8ZTKM/cart3-removebg-preview.png' alt="Shoes" /></figure>
                 <div class="card-body">
                     <h2 class="card-title">
                     Parts manufacturer
@@ -25,7 +25,7 @@ const Projects = () => {
             </div>
             {/* house  */}
             <div class="card opi lg:w-fit sm:w-fit bg-base-100 shadow-xl mt-5 sm:mt-8">
-                <figure><img src='https://i.ibb.co/tmvS8Wg/cart2-removebg-preview.png' alt="Shoes" /></figure>
+                <figure><img className='h-40' src='https://i.ibb.co/tmvS8Wg/cart2-removebg-preview.png' alt="Shoes" /></figure>
                 <div class="card-body">
                     <h2 class="card-title">
                     Revo Warehouse
@@ -43,7 +43,7 @@ const Projects = () => {
             </div>
             {/* gym  */}
             <div class="card opi lg:w-fit sm:w-fit bg-base-100 shadow-xl mt-5 sm:mt-8">
-                <figure><img src='https://cdn2.iconfinder.com/data/icons/anxiety-mental-health/194/Excercise-256.png' alt="Shoes" /></figure>
+                <figure><img className='h-40' src='https://cdn2.iconfinder.com/data/icons/anxiety-mental-health/194/Excercise-256.png' alt="Shoes" /></figure>
                 <div class="card-body">
                     <h2 class="card-title">
                     Fitness

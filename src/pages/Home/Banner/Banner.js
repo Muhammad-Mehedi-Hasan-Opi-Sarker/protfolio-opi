@@ -6,13 +6,13 @@ const Banner = () => {
     return (
         <div className='bg-secondary'>
             <div className='grid justify-items-center lg:grid-cols-2 sm:grid-cols-1'>
-                <div className='lg:mt-32 sm:mt-2 sm:flex-row'>
+                <div className='lg:mt-32 sm:mt-2 sm:flex-row sm:mb-8'>
                     <div>
                         <h1 className='hey lg:text-6xl sm:text-6xl lg:font-extrabold font-bold lg:mt-4 lg:text-white'>MEHEDI HASAN OPI</h1>
                         <h1 className='lg:text-6xl sm:text-6xl lg:font-extrabold font-bold lg:mt-4 text-primary'>BANGLADESH</h1>
                         <h3 className='lg:mt-4 text-primary'>Creative Web Developer</h3>
                     </div>
-                    <div className='sm:mb-4'>
+                    <div>
                         <a href={resume} download className="btn btn-primary hover:bg-white hover:text-primary rounded-full ... mt-4">
                             Download cv
                         </a>
