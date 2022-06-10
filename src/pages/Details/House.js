@@ -38,7 +38,11 @@ const House = () => {
                         <li>Here I work with react , react bootstrap , bootstrap.</li>
                         <li>This website work add product and delete product.</li>
                         <li>firebase, react firebase hooks, react router etc. This project was bootstrapped with Create React App.</li>
-                    
+                    <div className='flex gap-4'>
+                        <h1 className='font-bold text-primary'><a href="https://tourmaline-dango-e02d60.netlify.app">Live Site</a></h1>
+                        <h1 className='font-bold text-primary'><a href="https://github.com/Muhammad-Mehedi-Hasan-Opi-Sarker/warehouse-client-site">Client Code</a></h1>
+                        <h1 className='font-bold text-primary'><a href="https://github.com/Muhammad-Mehedi-Hasan-Opi-Sarker/warehouse-management-server-side">Server Code</a></h1>
+                    </div>
                 </div>
             </div>
         </div>

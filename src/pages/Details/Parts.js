@@ -38,7 +38,11 @@ const Parts = () => {
                         <li>Any user can give a review.</li>
                         <li>Users can easily order products.</li>
                         <li>All users data will saved in database.</li>
-                    
+                    <div className='flex gap-4'>
+                        <h1 className='font-bold text-primary'><a href="https://parts-manufacturer-6301a.web.app">Live Site</a></h1>
+                        <h1 className='font-bold text-primary'><a href="https://github.com/Muhammad-Mehedi-Hasan-Opi-Sarker/parts-manufacturer-website-client-side">Client Code</a></h1>
+                        <h1 className='font-bold text-primary'><a href="https://github.com/Muhammad-Mehedi-Hasan-Opi-Sarker/parts-manufacturer-website-server-side">Server Code</a></h1>
+                    </div>
                 </div>
             </div>
         </div>

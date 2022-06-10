@@ -34,6 +34,10 @@ const Gym = () => {
                         <li>Here I work with react , react bootstrap , bootstrap.</li>
                         <li>Here I work with vanilla javascript and css.</li>
                         <li>This project works for a Gym Tainer.</li>
+                        <div className='flex gap-4'>
+                        <div><h1 className='font-bold text-primary'><a href="https://sprightly-cranachan-d3a91e.netlify.app/">Live site</a></h1></div>
+                        <div><h1 className='font-bold text-primary'><a href="https://github.com/Muhammad-Mehedi-Hasan-Opi-Sarker/gym-tainer">Code Link</a></h1></div>
+                        </div>
                     </div>
                 </div>
             </div>
