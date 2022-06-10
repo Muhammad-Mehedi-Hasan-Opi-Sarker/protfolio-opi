@@ -3,18 +3,45 @@
         "id":1,
         "name": "Parts manufacturer",
         "description": "This website is primarily for car parts dealers. With this website dealers from different countries will be able to buy car parts. Here everyone can buy car parts in a very good way.",
-        "img": "https://i.ibb.co/Nr8ZTKM/cart3-removebg-preview.png"
+        "bu1":"This project use in Mongodb and heroku.",
+        "bu2":"Home page show some things products.",
+        "bu3":"Any user can give a review.",
+        "bu4":"Users can easily order products.",
+        "bu5":"All users data will saved in database.",
+        "img": "https://i.ibb.co/Nr8ZTKM/cart3-removebg-preview.png",
+        "parts1":"https://i.ibb.co/mznN7j5/parts1.png",
+        "parts2":"https://i.ibb.co/12qZ6GW/parts2.png",
+        "parts3":"https://i.ibb.co/JpLz2c9/parts3.png",
+        "parts":"https://i.ibb.co/BNg08Cj/parts4.png"
+        
     },
     {
         "id":2,
         "name": "Revo Warehouse",
         "description": "This is the website for dealers. Dealers will be able to run their business with this website. This website is fullstack completed. Mongodb has been used as database in this website. Login register etc. has been done here. Email verification has been done here.",
-        "img": "https://i.ibb.co/tmvS8Wg/cart2-removebg-preview.png"
+        "bu1":"This project use in Mongodb and heroku.",
+        "bu2":"Home page show some things products.",
+        "bu3":"Here I work with react , react bootstrap , bootstrap.",
+        "bu4":"This website work add product and delete product.",
+        "bu5":"firebase, react firebase hooks, react router etc. This project was bootstrapped with Create React App.",
+        "img": "https://i.ibb.co/tmvS8Wg/cart2-removebg-preview.png",
+        "house1":"https://i.ibb.co/2Nt47JV/house1.png",
+        "house2":"https://i.ibb.co/DzykNpK/house2.png",
+        "house3":"https://i.ibb.co/D83Zn5t/house3.png"
     },
     {
         "id":3,
         "name": "Fitness",
         "description": "This is a gym trainer's website. This website is designed to facilitate the work of a personal gym trainer. This allows the client to hire a gym trainer. And here the user will not be able to hire a trainer without login",
-        "img": "https://cdn2.iconfinder.com/data/icons/anxiety-mental-health/194/Excercise-256.png"
+        "bu1":"This project makes by react.",
+        "bu2":"This project is designed by react-bootstrap",
+        "bu3":"Here I work with vanilla javascript and css.",
+        "bu4":"This project works for a Gym Tainer.",
+        "bu5":"firebase, react firebase hooks etc. This project was bootstrapped with Create React App.",
+        "img": "https://cdn2.iconfinder.com/data/icons/anxiety-mental-health/194/Excercise-256.png",
+        "gym1":"https://i.ibb.co/M2KcRnL/gym1.png",
+        "gym2":"https://i.ibb.co/3CBLHBd/gym2.png",
+        "gym3":"https://i.ibb.co/mzQmMW3/gym3.png",
+        "gym4":"https://i.ibb.co/smmpcNb/gym4.png"
     }
 ]

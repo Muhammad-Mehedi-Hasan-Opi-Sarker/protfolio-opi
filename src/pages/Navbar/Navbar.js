@@ -7,14 +7,14 @@ const Navbar = () => {
         <div>
             <div class="navbar bg-secondary">
                 <div class="flex-1">
-                    <a class="btn btn-ghost normal-case text-xl"><img src={logo} alt="" /></a>
+                    <Link to='/home' class="btn btn-ghost normal-case text-xl"><img src={logo} alt="" /></Link>
                 </div>
                 <div class="flex-none">
                     <ul class="menu menu-horizontal p-0">
                         <li><Link to='/home'>Home</Link></li>
-                        <li><Link to='/about'>About</Link></li>
-                        <li><Link to='/about'>Blog</Link></li>
-                        <li><a>Contract Me</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><Link to='/blog'>Blog</Link></li>
+                        <li><a href='#contrac'>Contract Me</a></li>
                     </ul>
                 </div>
             </div>
