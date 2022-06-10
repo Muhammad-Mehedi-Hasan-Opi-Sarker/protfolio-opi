@@ -1,8 +1,10 @@
 import React from 'react';
+import Footer from '../Home/Footer';
 
 const Parts = () => {
     return (
-        <div className='lg:px-32 px-8 bg-secondary mt-12'>
+       <div>
+         <div className='lg:px-32 px-8 mt-12'>
             <div class="carousel w-full">
                 <div id="item1" class="carousel-item w-full">
                     <img src="https://i.ibb.co/mznN7j5/parts1.png" alt='' class="w-full" />
@@ -23,7 +25,24 @@ const Parts = () => {
                 <a href="#item3" class="btn btn-xs">3</a>
                 <a href="#item4" class="btn btn-xs">4</a>
             </div>
+            <div class="card w-fit bg-base-100 shadow-xl">
+                <div class="card-body">
+                <h1 className='lg:text-6xl sm:text-4xl lg:font-extrabold font-bold lg:mt-4 text-primary lg:mb-5'>Parts manufacturer</h1>
+                    <p>This website is primarily for car parts dealers. With this website
+                    dealers from different countries will be able to buy car parts.
+                    Here everyone can buy car parts in a very good way.</p>
+                    
+                    <h2 className='text-4xl font-bold text-primary'>Features</h2>
+                        <li>This project use in Mongodb and heroku.</li>
+                        <li>Home page show some things products.</li>
+                        <li>Any user can give a review.</li>
+                        <li>Users can easily order products.</li>
+                        <li>All users data will saved in database.</li>
+                    
+                </div>
+            </div>
         </div>
+       </div>
     );
 };
 
