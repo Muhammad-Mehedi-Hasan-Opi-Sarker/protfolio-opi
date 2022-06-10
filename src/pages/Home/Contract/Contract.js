@@ -9,7 +9,7 @@ const Contract = () => {
             <form onClick={handleContract}>
             <input type="text" placeholder="Name" className="mb-5 input input-bordered input-primary w-full max-w-xs" /><br />
             <input type="email" placeholder="Email" className="mb-5 input input-bordered input-primary w-full max-w-xs" /><br />
-            <textarea className='mb-5 input input-bordered input-primary w-full max-w-xs' placeholder='Message' name="message" id="" cols="30" rows="10"></textarea>
+            <textarea class="textarea textarea-primary" placeholder="Message"></textarea><br />
             <input type="submit" className='btn btn-primary hover:bg-white hover:text-primary' value="Submit Message" />
             </form>
         </div>
