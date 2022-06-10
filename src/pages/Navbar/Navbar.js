@@ -12,8 +12,8 @@ const Navbar = () => {
                 <div class="flex-none">
                     <ul class="menu menu-horizontal p-0">
                         <li><Link to='/home'>Home</Link></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href='#contrac'>Contract Me</a></li>
+                        <li><a href="home#about">About</a></li>
+                        <li><a href='home#contrac'>Contract Me</a></li>
                     </ul>
                 </div>
             </div>

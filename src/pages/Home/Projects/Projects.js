@@ -17,9 +17,9 @@ const Projects = () => {
                          from different countries will be able to buy car parts.
                          Here everyone can buy car parts in a very good way.</p>
                     <div class="card-actions justify-end">
-                        <button className="btn btn-primary hover:bg-white hover:text-primary mt-4">
-                            <Link to='/parts'>Explore Now</Link>
-                        </button>
+                        <Link to='/parts'>
+                    <button className="btn btn-primary hover:bg-white hover:text-primary mt-4">Explore Now</button>
+                    </Link>
                     </div>
                 </div>
             </div>
@@ -35,9 +35,9 @@ const Projects = () => {
                          database in this website. Login register etc. has been done here.
                          Email verification has been done here.</p>
                     <div class="card-actions justify-end">
-                        <button className="btn btn-primary hover:bg-white hover:text-primary mt-4">
-                            <Link to='/house'>Explore Now</Link>
-                        </button>
+                    <Link to='/house'>
+                    <button className="btn btn-primary hover:bg-white hover:text-primary mt-4">Explore Now</button>
+                    </Link>
                     </div>
                 </div>
             </div>
@@ -52,9 +52,10 @@ const Projects = () => {
                         of a personal gym trainer. This allows the client to hire a gym trainer.
                          And here the user will not be able to hire a trainer without login</p>
                     <div class="card-actions justify-end">
-                        <button className="btn btn-primary hover:bg-white hover:text-primary mt-4">
-                            <Link to='/gym'>Explore Now</Link>
-                        </button>
+                    <Link to='/gym'>
+                    <button className="btn btn-primary hover:bg-white hover:text-primary mt-4">Explore Now</button>
+                    </Link>
+                        
                     </div>
                 </div>
             </div>

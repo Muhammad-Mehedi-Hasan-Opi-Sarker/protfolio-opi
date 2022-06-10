@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import opi2 from '../../../asset/picture/opi2.jpg';
 const About = () => {
     return (
@@ -18,9 +19,9 @@ const About = () => {
                      I enjoy every step of the design
                     process, from discussion and collaboration.
                 </p>
-                <button className="btn btn-primary hover:bg-white hover:text-primary mt-4">
+                <Link to='/more'><button className="btn btn-primary hover:bg-white hover:text-primary mt-4">
                             Learn More
-                        </button>
+                        </button></Link>
             </div>
         </div>
     );
