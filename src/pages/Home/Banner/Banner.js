@@ -1,7 +1,7 @@
 import React from 'react';
 import './Banner.css';
 import pic2 from '../../../asset/picture/pic3.png';
-import resume from '../../../asset/picture/resume.PNG';
+import resume from '../../../asset/picture/resume.pdf';
 const Banner = () => {
     return (
         <div className='bg-secondary'>

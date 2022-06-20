@@ -4,7 +4,6 @@ import Home from './pages/Home/Home';
 import { Route, Routes } from 'react-router-dom';
 import About from './pages/Home/About/About';
 import Navbar from '../src/pages/Navbar/Navbar';
-import Blog from './pages/Blog/Blog';
 import Parts from './pages/Details/Parts';
 import House from './pages/Details/House';
 import Gym from './pages/Details/Gym';
